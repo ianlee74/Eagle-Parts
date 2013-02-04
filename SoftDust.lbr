@@ -169,7 +169,7 @@
 <package name="8-UFDFN">
 <wire x1="-0.68" y1="-0.88" x2="0.72" y2="-0.88" width="0.127" layer="21"/>
 <wire x1="0.72" y1="0.87" x2="-0.44" y2="0.87" width="0.127" layer="21"/>
-<text x="-1.52" y="0.36" size="0.6096" layer="21">1</text>
+<text x="-1.2025" y="0.995" size="0.6096" layer="21">1</text>
 <wire x1="-0.68" y1="-0.88" x2="-0.68" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="0.72" y1="-0.88" x2="0.72" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="0.724" y1="0.872" x2="0.72" y2="0.868" width="0.127" layer="21"/>
@@ -184,7 +184,7 @@
 <smd name="P$3" x="-0.616" y="-0.2" dx="0.42" dy="0.1778" layer="1"/>
 <smd name="P$2" x="-0.616" y="0.2" dx="0.42" dy="0.1778" layer="1"/>
 <smd name="P$1" x="-0.616" y="0.6" dx="0.42" dy="0.1778" layer="1"/>
-<text x="-1.4" y="1.2" size="0.8128" layer="25">&gt;name</text>
+<text x="-1.4" y="-1.6575" size="0.8128" layer="25">&gt;name</text>
 </package>
 </packages>
 <symbols>
