@@ -22,10 +22,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -126,15 +126,15 @@
 </package>
 <package name="SPADE-TERMINAL">
 <description>0.2mm spaced pads for connecting a spade terminal.</description>
-<pad name="P$1" x="0" y="-2.54" drill="1.5" shape="square"/>
-<pad name="P$2" x="0" y="2.54" drill="1.5" shape="square"/>
-<wire x1="-1.3462" y1="-3.937" x2="-1.3208" y2="-3.937" width="0.127" layer="21"/>
-<wire x1="-1.3208" y1="-3.937" x2="1.3462" y2="-3.937" width="0.127" layer="21"/>
-<wire x1="1.3462" y1="-3.937" x2="1.3462" y2="3.8862" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="-2.54" drill="1.5" shape="square" stop="no"/>
+<pad name="P$2" x="0" y="2.54" drill="1.5" shape="square" stop="no"/>
+<wire x1="1.3462" y1="-3.8735" x2="1.3462" y2="3.8862" width="0.127" layer="21"/>
 <wire x1="1.3462" y1="3.8862" x2="-1.3208" y2="3.8862" width="0.127" layer="21"/>
-<wire x1="-1.3208" y1="3.8862" x2="-1.3208" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-1.3208" y1="3.8862" x2="-1.3208" y2="-3.8735" width="0.127" layer="21"/>
 <text x="-3.175" y="4.445" size="1.27" layer="21">&gt;name</text>
-<smd name="P$3" x="0" y="0" dx="2.4" dy="2.1" layer="1" rot="R90"/>
+<rectangle x1="-1.12585" y1="-1.43198125" x2="1.12838125" y2="1.411740625" layer="17"/>
+<rectangle x1="-1.27" y1="-3.81" x2="1.27" y2="3.81" layer="29"/>
+<wire x1="-1.3335" y1="-3.8735" x2="1.3335" y2="-3.8735" width="0.127" layer="21"/>
 </package>
 <package name="2X5_1.27MM">
 <description>2x5 pins, 1.27mm pitch "Gadgeteer Socket"</description>
