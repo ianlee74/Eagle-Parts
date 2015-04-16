@@ -878,18 +878,22 @@
 <wire x1="2.54" y1="-3.81" x2="1.016" y2="-3.81" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="SWITCH-CK-JS202011SCQN">
-<pin name="P$1" x="-5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="P$2" x="-5.08" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="P$3" x="-5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="P$4" x="2.54" y="7.62" visible="pin" length="middle"/>
-<pin name="P$5" x="2.54" y="2.54" visible="pin" length="middle"/>
+<pin name="P$1" x="2.54" y="7.62" visible="pin" length="middle"/>
+<pin name="P$2" x="-5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="P$3" x="2.54" y="2.54" visible="pin" length="middle"/>
+<pin name="P$4" x="2.54" y="-2.54" visible="pin" length="middle"/>
+<pin name="P$5" x="-5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <wire x1="-3.81" y1="5.08" x2="1.524" y2="7.112" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="-5.08" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="5.842" x2="-1.27" y2="-4.064" width="0.254" layer="94" style="shortdash"/>
-<pin name="P$6" x="2.54" y="-2.54" visible="pin" length="middle"/>
-<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<text x="7.874" y="2.032" size="1.27" layer="95">C</text>
-<text x="-11.684" y="-0.762" size="1.27" layer="95">C</text>
+<pin name="P$6" x="2.54" y="-7.62" visible="pin" length="middle"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME DPDT</text>
+<circle x="-5.08" y="-5.08" radius="1.077628125" width="0.254" layer="94"/>
+<circle x="2.54" y="-7.62" radius="1.077628125" width="0.254" layer="94"/>
+<circle x="-5.08" y="5.08" radius="1.077628125" width="0.254" layer="94"/>
+<circle x="2.54" y="7.62" radius="1.135921875" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="1.135921875" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="1.135921875" width="0.254" layer="94"/>
 </symbol>
 <symbol name="TERMINAL-BLOCK-2PIN">
 <pin name="P$1" x="2.54" y="2.54" length="middle" rot="R180"/>
